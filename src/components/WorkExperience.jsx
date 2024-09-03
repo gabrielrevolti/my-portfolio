@@ -3,7 +3,7 @@ import { EXPERIENCES } from '../constants';
 
 const WorkExperience = () => {
   return (
-    <section className='pt-20 lg:mx-13' id='work'>
+    <section className='pt-20 lg:mx-14' id='work'>
       <h2 className='text-center text-4xl tracking-tighter'>Work Experience</h2>
       <div className='space-y-8 p-10'>
         {EXPERIENCES.map((experience, index) => (
