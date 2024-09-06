@@ -16,9 +16,13 @@ const Bio = () => {
       whileInView={{opacity: 1}}
       transition={{duration: 0.8, delay: 0.2}}>
         {BIO.map((bio, index) => (
-          <p key={index} className="mb-4 text-lg lg:text-xl md:text-justify">
+          <motion.p
+          initial={{opacity: 0, x: -20}}
+          whileInView={{opacity: 1, x: 0}}
+          transition={{duration: 0.8, delay: index * 0.5}}
+          key={index} className="mb-4 text-lg lg:text-xl md:text-justify">
             {bio}
-          </p>
+          </motion.p>
         ))}
       </motion.div>
     </section>
