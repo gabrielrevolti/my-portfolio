@@ -22,12 +22,12 @@ import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
-  { label: "Projects", href: "#projects" },
+  { label: "Projetos", href: "#projects" },
   { label: "Bio", href: "#bio" },
-  { label: "Skills", href: "#skills" },
-  { label: "Work Experience", href: "#work" },
-  { label: "Education", href: "#education" },
-  { label: "Contact", href: "#contact" },
+  { label: "Tecnologias", href: "#skills" },
+  { label: "Experiência", href: "#work" },
+  { label: "Educação", href: "#education" },
+  { label: "Contato", href: "#contact" },
 ];
 
 export const HERO = {
