@@ -11,7 +11,7 @@ const Projects = () => {
         whileInView={{ opacity: 1, y: 0}}
         transition={{ duration: 0.8}}
         className='mb-8 text-center text-3xl lg:text-4xl'>
-        Projects
+        Projetos
       </motion.h2>
       <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
         {PROJECTS.map((project) => (

@@ -16,10 +16,10 @@ import projectImage6 from "../assets/project6.jpeg";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaSass } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { GrMysql } from "react-icons/gr";
 
 export const NAVIGATION_LINKS = [
   { label: "Projetos", href: "#projects" },
@@ -34,7 +34,7 @@ export const HERO = {
   name: "Gabriel Revolti",
   greet: "Olá! 👋🏻",
   description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+    "Eu sou um desenvolvedor frontend apaixonado, com talento para criar interfaces de usuário bonitas e funcionais. Ao longo desses 2 anos, tenho me dedicado a aprimorar minhas habilidades e entregar soluções eficientes e inovadoras.",
 };
 
 export const PROJECTS = [
@@ -98,74 +98,65 @@ export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
-    experience: "2+ years",
+    experience: "+1 anos",
   },
   {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
-    experience: "1+ year",
+    experience: "+1 anos",
   },
   {
-    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "MongoDB",
-    experience: "1.5+ years",
+    icon: <RiTailwindCssFill className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "TailwindCss",
+    experience: "6 meses",
   },
   {
-    icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
-    name: "Redis",
-    experience: "1+ year",
+    icon: <FaSass className="text-4xl text-pink-500 lg:text-5xl" />,
+    name: "Sass",
+    experience: "6 meses",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "2+ years",
+    experience: "1 ano",
   },
   {
-    icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
-    name: "PostgreSQL",
-    experience: "1+ year",
+    icon: <GrMysql className="text-4xl text-sky-700 lg:text-5xl" />,
+    name: "MySql",
+    experience: "1 ano",
   },
 ];
 
 export const EXPERIENCES = [
   {
-    title: "Lead Frontend Developer",
-    company: "Innovative Tech Solutions",
-    duration: "July 2020 - Present",
+    title: "Desenvolvedor Web Freelancer",
+    duration: "Agosto 2023 - Atualmente",
     description:
       "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
   },
   // {
-  //   title: "Frontend Engineer",
-  //   company: "Digital Creations",
-  //   duration: "February 2016 - June 2020",
-  //   description:
-  //     "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
-  // },
-  // {
-  //   title: "Junior Web Developer",
-  //   company: "Bright Future Technologies",
-  //   duration: "August 2014 - January 2016",
-  //   description:
-  //     "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
+  //   title: "",
+  //   company: "",
+  //   duration: "",
+  //   description: "",
   // },
 ];
 
 export const EDUCATION = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "September 2012 - June 2014",
+    degree: "Análise e desenvolvimento de sistemas",
+    institution: "Impacta tecnologia",
+    duration: "Agosto 2022 - Dezembro 2024",
     description:
       "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
   },
-  {
-    degree: "Bachelor of Science in Information Technology",
-    institution: "University of California, Berkeley",
-    duration: "September 2008 - June 2012",
-    description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
-  },
+  // {
+  //   degree: "Bachelor of Science in Information Technology",
+  //   institution: "University of California, Berkeley",
+  //   duration: "September 2008 - June 2012",
+  //   description:
+  //     "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+  // },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [

@@ -1,4 +1,4 @@
-import logo from "../assets/logo.png"
+import logo from "../assets/logo-maior.png"
 import { SOCIAL_MEDIA_LINKS } from "../constants"
 import {motion} from "framer-motion"
 
@@ -24,7 +24,7 @@ const Footer = () => {
         ))}
       </div>
       <p className="mt-8 text-center text-sm tracking-wide text-gray-400">
-        &copy;All rights reserved.
+        &copy;Todos os direitos reservados.
       </p>
     </div>
   )

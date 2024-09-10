@@ -9,7 +9,7 @@ const EducationSection = () => {
         initial={{opacity: 0, y: -20 }}
         whileInView={{opacity: 1, y: 0}}
         transition={{duration: 1 }}
-        className="mb-4 text-center text-3xl">Education
+        className="mb-4 text-center text-3xl">Educação
       </motion.h2>
       {EDUCATION.map((edu, index) => (
         <motion.div
