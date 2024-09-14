@@ -89,9 +89,8 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+  "Meu nome é Gabriel Revolti, tenho 20 anos e estou me formando em Análise e Desenvolvimento de Sistemas pela Faculdade Impacta. Há cerca de 2 anos, venho me especializando em desenvolvimento frontend e programação. Atualmente, atuo como freelancer, criando sites e desenvolvendo projetos pessoais.",
+  "Minha principal área de atuação é o frontend, utilizando tecnologias como HTML, CSS, JavaScript, React, Tailwind, Sass e Bootstrap. No entanto, também possuo experiência no desenvolvimento full stack, com conhecimento em backend, utilizando Python, MySQL e Node.js.",
 ];
 
 export const SKILLS = [
@@ -148,7 +147,7 @@ export const EDUCATION = [
     institution: "Impacta tecnologia",
     duration: "Agosto 2022 - Dezembro 2024",
     description:
-      "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
+      "Estou me formando em Análise e Desenvolvimento de Sistemas, onde desenvolvi habilidades para planejar, criar e gerenciar sistemas de software. Durante o curso, aprendi a trabalhar com diversas linguagens de programação, bancos de dados e ferramentas de modelagem de sistemas. Minha formação incluiu tanto a análise de requisitos e lógica de programação quanto a implementação de soluções tecnológicas, como sistemas web e aplicativos.",
   },
   // {
   //   degree: "Bachelor of Science in Information Technology",
