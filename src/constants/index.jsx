@@ -131,7 +131,7 @@ export const EXPERIENCES = [
     title: "Desenvolvedor Web Freelancer",
     duration: "Agosto 2023 - Atualmente",
     description:
-      "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
+      "Como desenvolvedor web freelancer, eu utilizo as tecnologias mais recentes do mercado, como React, Tailwind, Bootstrap, Sass, Python e Node.js, para entregar soluções otimizadas e eficientes. Minha experiência abrange em criação de interfaces responsivas e amigáveis ao usuário, com foco em performance e boas práticas de desenvolvimento.",
   },
   // {
   //   title: "",
