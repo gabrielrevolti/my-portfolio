@@ -1,18 +1,15 @@
 import {
-  FaXTwitter,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaDiscord,
   FaInstagram,
 } from "react-icons/fa6";
 
 import projectImage1 from "../assets/project1.jpeg";
-import projectImage2 from "../assets/project2.jpeg";
-import projectImage3 from "../assets/project3.jpeg";
-import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
+import projectImage2 from "../assets/project2.png";
+import projectImage3 from "../assets/project3.png";
+import projectImage4 from "../assets/project4.png";
+import projectImage5 from "../assets/project5.png";
+import projectImage6 from "../assets/project6.png";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -40,51 +37,57 @@ export const HERO = {
 export const PROJECTS = [
   {
     id: 1,
-    name: "Personal Portfolio",
+    name: "Portfólio",
     description:
-      "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
+      "Meu portfólio feito com React e Tailwind css para mostrar as minhas habilidades, e seção para contato.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://github.com/gabrielrevolti/my-portfolio",
+    live: false
   },
   {
     id: 2,
-    name: "E-Commerce Platform",
+    name: "Hamburgueria",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+      "Uma Hamburgueria feita com React e Flask, com funcionalidade de adicionar, remover, atualizar, excluir cardápio. Além de cadastro e login de usuário usando flask-session e redis gerando cookies do lado do servidor para segurança do cliente.",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+    githubLink: "https://github.com/gabrielrevolti/Restaurante",
+    live: false,
   },
   {
     id: 3,
-    name: "Task Management Tool",
+    name: "Barber Original(Mobile)",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+      "Um ponto de encontro para várias barbearias, desenvolvido com Next.js, TypeScript e Prisma. Possui funcionalidades como login com Google, agendamento de cortes em horários específicos, visualização e cancelamento de agendamentos, tudo salvo em um banco de dados online no Supabase.",
     image: projectImage3,
-    githubLink: "https://github.com/user/task-management-tool",
+    githubLink: "https://github.com/gabrielrevolti/barber-original",
+    live: "https://barber-original.vercel.app",
   },
   {
     id: 4,
-    name: "Weather App",
+    name: "OneBitX",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+      "Site baseado na SpaceX, desenvolvido através do curso de Bootstrap da OneBitCode, utilizando HTML, Sass, Bootstrap e uma biblioteca de animações.",
     image: projectImage4,
-    githubLink: "https://github.com/user/weather-app",
+    githubLink: "https://github.com/gabrielrevolti/onebit-x",
+    live: "https://gabrielrevolti.github.io/onebit-x/"
   },
   {
     id: 5,
-    name: "Blog Platform",
+    name: "Movie Lib",
     description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
+      "Movie Lib é um site que exibe os filmes mais populares, os que estão em cartaz e os lançamentos futuros. O projeto é alimentado pela API do The Movie Database e utiliza React, CSS e React Router DOM para criar rotas (várias páginas).",
     image: projectImage5,
-    githubLink: "https://github.com/user/blog-platform",
+    githubLink: "https://github.com/gabrielrevolti/movie-lib-react",
+    live: "https://movie-lib-react-xi.vercel.app"
   },
   {
     id: 6,
-    name: "Chat Application",
+    name: "JBL",
     description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
+      "Site da JBL com UI desenvolvida por profissionais, criado com HTML, CSS e JavaScript. O site conta com animações utilizando ScrollReveal e Swiper, além de ser totalmente responsivo.",
     image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
+    githubLink: "https://github.com/gabrielrevolti/jbl-website",
+    live: "https://gabrielrevolti.github.io/JBL-website/"
   },
 ];
 

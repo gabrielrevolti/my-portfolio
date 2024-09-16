@@ -22,6 +22,7 @@ const Projects = () => {
          whileHover={{ scale: 1.05}}
           key={project.id} 
           className="group relative overflow-hidden rounded-3xl">
+          <a href={project.live} target='_blank'>
           <motion.img 
           whileHover={{scale: 1.1}}
           src={project.image}
@@ -41,6 +42,7 @@ const Projects = () => {
               </div>
             </a>
           </motion.div>
+          </a>
         </motion.div>
         ))}
       </div>
