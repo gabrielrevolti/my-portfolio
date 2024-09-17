@@ -1,7 +1,7 @@
 import React from 'react'
 import { HERO } from '../constants'
 import {motion} from "framer-motion"
-import carlImg from "../assets/carl.jpeg"
+import perfil from "../assets/perfil2.jpg"
 
 const Hero = () => {
   return (
@@ -32,7 +32,7 @@ const Hero = () => {
           initial={{opacity: 0}}
           animate={{opacity: 1}}
           transition={{duration: 1}}
-          src={carlImg}
+          src={perfil}
           width={550}
           height={550}
           alt='Carl Frank'

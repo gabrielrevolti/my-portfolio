@@ -24,13 +24,13 @@ const ContactForm = () => {
 
   const validate = () => {
     let errors = {}
-    if (!formData.name) errors.name = "Name is required"
+    if (!formData.name) errors.name = "Nome necessário"
     if (!formData.email) {
-      errors.email = "Email is required"
+      errors.email = "Email necessário"
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      errors.email = "Email is invalid"
+      errors.email = "Email inválido"
     }
-    if (!formData.message) errors.message = "Message is required"
+    if (!formData.message) errors.message = "Menssagem necessária"
     return errors;
   }
 
