@@ -1,7 +1,7 @@
 import React from 'react'
 import { HERO } from '../constants'
 import {motion} from "framer-motion"
-import perfil from "../assets/perfil2.jpg"
+import perfil from "../assets/perfil5.jpg"
 
 const Hero = () => {
   return (
@@ -35,7 +35,7 @@ const Hero = () => {
           src={perfil}
           width={550}
           height={550}
-          alt='Carl Frank'
+          alt='Gabriel Revolti'
           className='rounded-3xl' />
         </div>
       </motion.div>
